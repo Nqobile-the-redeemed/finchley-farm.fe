@@ -4,6 +4,11 @@ import './globals.css'
 import { SidebarProvider } from '@/context/SidebarContext'
 import { ThemeProvider } from '@/context/ThemeContext'
 
+export const metadata = {
+  title: 'Finchley Farm Foods',
+  description: 'Fresh, affordable, locally produced food from Finchley Farm.'
+}
+
 const outfit = Outfit({
   subsets: ['latin']
 })
